@@ -21,7 +21,8 @@ export function userRegister(userName, userEmail, userPassword) {
     data: {
       userName: userName,
       userEmail: userEmail,
-      userPassword: userPassword,
+      secret: userPassword,
+      type: CLIENT_TYPE
     }
   })
 }
