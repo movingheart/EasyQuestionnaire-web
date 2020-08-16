@@ -1,6 +1,6 @@
 const development = {
   // 开发环境下请在这里修改你的服务器地址
-  serverBaseUrl: "http://192.168.0.129:5000",
+  serverBaseUrl: "http://192.168.1.5:5000",
   webBaseUrl: "http://localhost:8080"
 };
 
